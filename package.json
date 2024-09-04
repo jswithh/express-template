@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsc --project './tsconfig.build.json' --watch &NODE_ENV=development nodemon --trace-warnings ./dist/index.js",
     "build": "tsc --project './tsconfig.build.json'",
-    "push": "drizzle-kit push:mysql --config=./src/db/config.ts"
+    "push": "drizzle-kit push --config=./src/db/config.ts"
   },
   "keywords": [],
   "author": "",
